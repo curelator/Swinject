@@ -3,7 +3,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Swinject",
+    name: "SwinjectCurelator",
     platforms: [
         .macOS(.v10_10),
         .iOS(.v9),
@@ -11,7 +11,7 @@ let package = Package(
         .watchOS(.v2)
     ],
     products: [
-        .library(name: "Swinject",
+        .library(name: "SwinjectCurelator",
                  targets: ["Swinject"]),
         .library(name: "Swinject-Dynamic",
                  type: .dynamic,
